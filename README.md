@@ -12,4 +12,7 @@ For example, to move the subtitles ahead 1.5 seconds from old_subs.srt to new_su
 ruby subtitle_converter.rb -o add -t 1,500 old_subs.srt new_subs.srt
 
 
+If you want to subtract, use -o sub -t 1,500
+
 There is a subs_old.srt included to test with
+
